@@ -1,0 +1,17 @@
+{
+  "name": "ml-drift-lite-cdk",
+  "version": "0.1.0",
+  "bin": {
+    "ml-drift-lite": "bin/ml_drift_lite.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "aws-cdk-lib": "^2.100.0",
+    "constructs": "^10.0.0",
+    "typescript": "^4.9.0"
+  }
+}
